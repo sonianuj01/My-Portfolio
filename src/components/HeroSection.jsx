@@ -16,9 +16,8 @@ const HeroSection = () => {
                     </h1>
 
                     <p className='text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ex tempora facere quo corrupti architecto,
-                        ea earum ab ducimus, unde similique ipsam, laboriosam hic quasi nam eaque rerum beatae assumenda.
-                    </p>
+                            A 3rd-year IT student at IIIT Bhopal. Passionate about building scalable web applications with React, Node.js,
+                            and TailwindCSS. Exploring the intersection of problem-solving, design, and technology.</p>
 
                     <div className='opacity-0 animate-fade-in-delay-4 '>
                         <a href="#projects" className='cosmic-button'>

@@ -1,4 +1,4 @@
-import { Code } from 'lucide-react';
+import { Briefcase, Code, User } from 'lucide-react';
 import React from 'react';
 
 const AboutSection = () => {
@@ -13,8 +13,12 @@ const AboutSection = () => {
                     <div className='space-y-6'>
                         <h3 className='text-2xl font-semibold'>Passionate Web Developer</h3>
 
-                        <p className='text-muted-foreground'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro commodi possimus quibusdam dolores enim maiores dicta aperiam sit magni labore,
-                            consectetur similique impedit omnis, hic quaerat debitis nam voluptate obcaecati.</p>
+                        <p className='text-muted-foreground'>A passionate web developer driven by curiosity and problem-solving,
+                            constantly learning and experimenting with modern technologies to create meaningful 
+                            digital experiences that balance functionality, performance, and design.</p>
+                        <p className='text-muted-foreground'>Experienced in building responsive, scalable applications using React,
+                            Node.js, and TailwindCSS. Enthusiastic about teamwork, innovation, and turning ideas into real solutions 
+                            that improve usability and deliver lasting impact.</p>
                         <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
                             <a href="#contact" className='cosmic-button'>Get In Touch</a>
                             <a href="#contact" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>Get Resume</a>
@@ -28,19 +32,32 @@ const AboutSection = () => {
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Code className='h-6 w-6 text-primary'/>
                                 </div>
+                                <div className='text-left'>
+                                    <h4 className='font-semibold text-lg'>Web Development</h4>
+                                    <p className='text-muted-foreground'>Creating responsive websites and web applications with modern frameworks.</p>
+                                </div>
                             </div>
                         </div>
+
                         <div className="gradient-border p-6 card-hover">
                             <div className='flex items-start gap-4'>
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Code className='h-6 w-6 text-primary'/>
+                                    <User className='h-6 w-6 text-primary'/>
+                                </div>
+                                <div className='text-left'>
+                                    <h4 className='font-semibold text-lg'>UI/UX Design</h4>
+                                    <p className='text-muted-foreground'>design intuitive user interfaces and seamless user experiences.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="gradient-border p-6 card-hover">
                             <div className='flex items-start gap-4'>
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Code className='h-6 w-6 text-primary'/>
+                                    <Briefcase className='h-6 w-6 text-primary'/>
+                                </div>
+                                <div className='text-left'>
+                                    <h4 className='font-semibold text-lg'>Project Management</h4>
+                                    <p className='text-muted-foreground'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                                 </div>
                             </div>
                         </div>
