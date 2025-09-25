@@ -1,7 +1,7 @@
 import React from 'react';
-import arunoday from '../../public/arunoday.png';
-import youtube from '../../public/youtube.png';
-import portfolio from '../../public/portfolio.png';
+import arunoday from '/arunoday.png';
+import youtube from '/youtube.png';
+import portfolio from '/portfolio.png';
 
 import { ArrowRight, ExternalLink, Github } from 'lucide-react';
 
