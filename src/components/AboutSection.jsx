@@ -21,7 +21,10 @@ const AboutSection = () => {
                             that improve usability and deliver lasting impact.</p>
                         <div className='flex flex-col sm:flex-row gap-4 pt-4 justify-center'>
                             <a href="#contact" className='cosmic-button'>Get In Touch</a>
-                            <a href="#contact" className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'>Get Resume</a>
+                            <a href="https://drive.google.com/drive/folders/1_tnaXoQgfPvdgegtqXZXwu_fyVR1psYX?usp=sharing" 
+                                className='px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300'
+                            >
+                            Get Resume</a>
                         </div>
                     </div>
 
@@ -46,7 +49,7 @@ const AboutSection = () => {
                                 </div>
                                 <div className='text-left'>
                                     <h4 className='font-semibold text-lg'>UI/UX Design</h4>
-                                    <p className='text-muted-foreground'>design intuitive user interfaces and seamless user experiences.</p>
+                                    <p className='text-muted-foreground'>Design intuitive user interfaces and seamless user experiences.</p>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +60,7 @@ const AboutSection = () => {
                                 </div>
                                 <div className='text-left'>
                                     <h4 className='font-semibold text-lg'>Project Management</h4>
-                                    <p className='text-muted-foreground'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                    <p className='text-muted-foreground'>Managed team projects, ensuring deadlines and goals were met.</p>
                                 </div>
                             </div>
                         </div>
